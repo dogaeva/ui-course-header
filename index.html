@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Подставки.ру</title>
+    <link rel="stylesheet" type="text/css" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+      crossorigin="anonymous"
+    />
+  </head>
+
+  <body>
+    <div class="header">
+      <div class="header-block">
+        <div class="header-col">
+          <div class="dropdown show">
+            <a
+              class="btn dropdown-toggle"
+              id="dropdownMenuLink"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+              style="font-size: 18px; padding: 0; margin-bottom: 4px;"
+            >
+              Ульяновск
+            </a>
+
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </div>
+        </div>
+        <div class="header-col">
+          <a>Корзина</a>
+        </div>
+        <div class="header-col">
+          <a>Войти</a>
+          <svg
+            class="svg-header"
+            version="1.1"
+            id="Layer_1"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+            x="0px"
+            y="0px"
+            width="24px"
+            height="24px"
+            viewBox="0 0 64 64"
+            enable-background="new 0 0 64 64"
+            xml:space="preserve"
+          >
+            <g id="LOGIN_1_" enable-background="new    ">
+              <g id="LOGIN">
+                <g>
+                  <path
+                    d="M39.007,34.23C39.617,33.682,40,32.885,40,32s-0.384-1.681-0.993-2.23l0,0l-10-9l0,0C28.475,20.292,27.772,20,27,20
+                 c-1.657,0-3,1.343-3,3c0,0.885,0.383,1.681,0.993,2.23l0,0L29.182,29H11c-1.657,0-3,1.343-3,3s1.343,3,3,3h18.182l-4.189,3.77
+                 l0,0C24.384,39.32,24,40.115,24,41c0,1.657,1.343,3,3,3c0.772,0,1.475-0.292,2.007-0.77l0,0L39.007,34.23L39.007,34.23z
+                  M56,31.932V8.935c0-1.657-1.343-3-3-3H38c-1.657,0-3,1.343-3,3c0,1.657,1.343,3,3,3h12v40H38c-1.657,0-3,1.342-3,3
+                 c0,1.656,1.343,3,3,3h15c1.657,0,3-1.344,3-3V31.937c0-0.001,0-0.002,0-0.003C56,31.934,56,31.933,56,31.932z"
+                  />
+                </g>
+              </g>
+            </g>
+          </svg>
+        </div>
+      </div>
+    </div>
+    <div class="main">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#"
+                >Главная <span class="sr-only">(current)</span></a
+              >
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="#"
+                >О компании <span class="sr-only">(current)</span></a
+              >
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="#"
+                >Контакты <span class="sr-only">(current)</span></a
+              >
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="#"
+                >Условия доставки <span class="sr-only">(current)</span></a
+              >
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input
+              class="form-control mr-sm-2"
+              type="search"
+              placeholder="Поиск"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+              Найти
+            </button>
+          </form>
+        </div>
+      </nav>
+      <div class="nav-bar">
+        <nav class="nav flex-column">
+          <a class="nav-link disabled" href="#">Меню категорий</a>
+          <div class="row">
+              <div class="col-3" style="height: 220px">
+                <div class="list-group" id="list-tab" role="tablist">
+                  <a class="list-group-item list-group-item-action" style="font-size: 15px;" id="list-home-list" data-toggle="list" href="#list-home" role="tab" aria-controls="home">Под книги</a>
+                  <a class="list-group-item list-group-item-action" style="font-size: 15px;" id="list-profile-list" data-toggle="list" href="#list-profile" role="tab" aria-controls="profile">Под голову</a>
+                  <a class="list-group-item list-group-item-action" style="font-size: 15px;" id="list-messages-list" data-toggle="list" href="#list-messages" role="tab" aria-controls="messages">Под честь и достоинство</a>
+                  <a class="list-group-item list-group-item-action" style="font-size: 15px;" id="list-settings-list" data-toggle="list" href="#list-settings" role="tab" aria-controls="settings">Под подставки</a>
+                </div>
+              </div>
+        </nav>
+        <div class="nav-bar">
+            <nav class="nav flex-column">
+              <a class="nav-link disabled" href="#">Меню брендов</a>
+              <div class="row">
+                  <div class="col-3">
+                    <div class="list-group" id="list-tab" role="tablist">
+                      <a class="list-group-item list-group-item-action" style="font-size: 15px;" id="list-home-list" data-toggle="list" href="#list-home" role="tab" aria-controls="home">FixedJohn (США)</a>
+                      <a class="list-group-item list-group-item-action" style="font-size: 15px;" id="list-profile-list" data-toggle="list" href="#list-profile" role="tab" aria-controls="profile">Le Podstave (Франция)</a>
+                      <a class="list-group-item list-group-item-action" style="font-size: 15px;" id="list-messages-list" data-toggle="list" href="#list-messages" role="tab" aria-controls="messages">МосПодстав (Россия)</a>
+                      <a class="list-group-item list-group-item-action" style="font-size: 15px;" id="list-settings-list" data-toggle="list" href="#list-settings" role="tab" aria-controls="settings">Podstavken (Германия)</a>
+                    </div>
+                  </div>
+            </nav>
+      </div>
+    </div>
+  </body>
+  <script src="functions.js"></script>
+</html>

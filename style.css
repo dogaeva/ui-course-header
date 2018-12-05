@@ -1,0 +1,53 @@
+.header {
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0.4),
+      rgba(0, 0, 0, 0.1)
+    ),
+    url("./base_35d7c79d55.jpg");
+  margin: 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: top;
+  height: 100px;
+  padding: 0 100px 0;
+}
+.header-block {
+  float: right;
+  display: table-column;
+  padding-top: 50px;
+}
+
+.header-col {
+  display: inline-flex;
+  padding: 0 10px;
+}
+
+.nav-bar {
+  padding: 20px 0 0 0;
+  font-size: 14px;
+}
+
+a {
+  font-size: 18px;
+}
+
+.svg-header {
+  margin-top: 2px;
+  margin-left: 5px;
+}
+
+.main-block {
+  float: right;
+  display: table-column;
+}
+
+.main {
+  padding: 0 100px 0;
+}
+
+.main-col {
+  vertical-align: bottom;
+  display: inline-block;
+  padding: 15px;
+}
